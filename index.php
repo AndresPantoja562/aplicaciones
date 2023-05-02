@@ -10,19 +10,19 @@
 </head>
 
 <body>
-<form>
+<form method="POST" action="registar.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Identificador</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="identificador" name= "identificador" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text"></div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Nombre</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="text" class="form-control" id="Nombre" name="nombre">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Detalle</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="text" class="form-control" id="Detalle" name="detalle">
   </div>
   <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
